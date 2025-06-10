@@ -23,7 +23,7 @@ public class PublicacaoRequest {
     }
 
     public Publicacao toPublicacao() {
-        return new Publicacao(titulo, imagemUrl, texto, null);
+        return new Publicacao(null, titulo, imagemUrl, texto, null);
     }
 
     public String getTitulo() {

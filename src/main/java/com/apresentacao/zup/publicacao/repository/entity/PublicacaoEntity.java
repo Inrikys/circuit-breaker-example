@@ -29,7 +29,7 @@ public class PublicacaoEntity {
     }
 
     public Publicacao toPublicacao() {
-        return new Publicacao(titulo, imagemUrl, texto, comentarios);
+        return new Publicacao(id, titulo, imagemUrl, texto, comentarios);
     }
 
     public String getId() {
